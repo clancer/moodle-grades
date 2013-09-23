@@ -1,0 +1,47 @@
+accessed like:
+http://localhost/moodle/webservice/rest/server.php?wstoken=e56ed5e4ad6408425c7260759f59f636&wsfunction=local_wstemplate_hello_world
+gives:
+
+<RESPONSE><VALUE>Hello world, object(stdClass)#564 (9) {
+  ["itemnumber"]=>
+  string(1) "0"
+  ["scaleid"]=>
+  NULL
+  ["name"]=>
+  string(12) "Assignment 1"
+  ["grademin"]=>
+  string(7) "0.00000"
+  ["grademax"]=>
+  string(9) "100.00000"
+  ["gradepass"]=>
+  string(7) "0.00000"
+  ["locked"]=>
+  bool(false)
+  ["hidden"]=>
+  bool(false)
+  ["grades"]=>
+  array(1) {
+    [3]=>
+    object(stdClass)#560 (9) {
+      ["grade"]=>
+      string(8) "70.00000"
+      ["locked"]=>
+      bool(false)
+      ["hidden"]=>
+      bool(false)
+      ["overridden"]=>
+      string(1) "0"
+      ["feedback"]=>
+      NULL
+      ["feedbackformat"]=>
+      string(1) "1"
+      ["usermodified"]=>
+      string(1) "2"
+      ["datesubmitted"]=>
+      NULL
+      ["dategraded"]=>
+      string(10) "1375444831"
+    }
+  }
+}
+kAdmin2</VALUE></RESPONSE>
